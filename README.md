@@ -1,7 +1,7 @@
 ### FreeCodeCamp
 
 ![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)
-![Javascript](https://img.shields.io/badge/using-javascript-FF8E63?style=flat&logo=javascript)
+![Javascript](https://img.shields.io/badge/using-javascript-FF6286?style=flat&logo=javascript)
 
 Solutions and Projects from FreeCodeCamp.
 
