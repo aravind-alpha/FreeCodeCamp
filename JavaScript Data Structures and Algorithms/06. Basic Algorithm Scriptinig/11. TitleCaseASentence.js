@@ -9,7 +9,9 @@ function titleCase(str) {
 
 // Using Regex :
 function titleCase(str) {
-  return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
+  return str
+    .toLowerCase()
+    .replace(/(^|\s)\S/g, (letter) => letter.toUpperCase());
 }
 
 titleCase("I'm a little tea pot");
