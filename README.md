@@ -18,6 +18,10 @@ FreeCodeCamp Solutions and Projects.
 - [Intermediate Algorithm Scripting](https://github.com/aravind-alpha/FreeCodeCamp/tree/master/JavaScript%20Data%20Structures%20and%20Algorithms/09.%20Intermediate%20Algorithm%20Scripting)
 - [JavaScript Algorithms and Data Structures Projects](https://github.com/aravind-alpha/FreeCodeCamp/tree/master/JavaScript%20Data%20Structures%20and%20Algorithms/10.%20JavaScript%20Algorithms%20and%20Data%20structures%20Projects)
 
+#### Certification
+
+![screenshot](JavaScript Algorithms and Data Structures Certificate.png)
+
 ### 👨‍🍳 Author
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) Aravind's LinkedIn](https://www.linkedin.com/in/aravind-alpha)
