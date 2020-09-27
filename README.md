@@ -20,7 +20,7 @@ FreeCodeCamp Solutions and Projects.
 
 #### Certification
 
-![screenshot](JavaScript Algorithms and Data Structures Certificate.png)
+![screenshot](https://github.com/aravind-alpha/FreeCodeCamp/blob/master/JavaScript%20Data%20Structures%20and%20Algorithms/JavaScript%20Algorithms%20and%20Data%20Structures%20Certificate.png)
 
 ### 👨‍🍳 Author
 
