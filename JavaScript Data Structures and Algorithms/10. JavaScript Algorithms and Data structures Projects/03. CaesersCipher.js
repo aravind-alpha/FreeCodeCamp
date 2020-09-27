@@ -24,4 +24,3 @@ function rot13(str) {
 
 console.log(rot13("SERR PBQR PNZC")); // FREE CODE CAMP
 console.log(rot13("NENIAQ")); // ARAVIND
-console.log(rot13("FEHGUV"));
