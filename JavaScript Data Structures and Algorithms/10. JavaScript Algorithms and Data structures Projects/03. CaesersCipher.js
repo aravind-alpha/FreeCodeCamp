@@ -22,4 +22,6 @@ function rot13(str) {
 * Mapping a range of 26 numbers i.e. between [65 - 90] which represents uppercase [English alphabets] 
   in Unicode character set 74 to a range of numbers between [0 - 25]. */
 
-rot13("SERR PBQR PNZC");
+console.log(rot13("SERR PBQR PNZC")); // FREE CODE CAMP
+console.log(rot13("NENIAQ")); // ARAVIND
+console.log(rot13("FEHGUV"));
