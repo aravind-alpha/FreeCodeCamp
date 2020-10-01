@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+<meta name="title" property="og:title" content="Aravind's Portfolio">
+<meta property="og:type" content="Website">
+<meta name="image" property="og:image" content="https://aravind.netlify.com/linkedin_thumb.png">
+<meta name="description" property="og:description" content="Made with <3">
+<meta name="url" property="og:url" content="https://aravind-alpha.netlify.com">
+<meta name="author" content="Aravind.S"> 
+<title>Aravind - Portfolio</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://aravind.netlify.com/favicon.ico">
+<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+<script src="https://code.jquery.com/jquery-latest.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+</head>
+
+<body>
+ <header class="header">
+    <a name="top"></a>
+    <div class="header-container">
+        <img src="img/logo.png" alt="alpha logo" class="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a class="smoothScroll" href="#top" >Home</a></li>
+            <li><a class="smoothScroll" href="#skills" >Skills</a></li>
+            <li><a class="smoothScroll" href="#portfolio" >Work</a></li>
+            <li><a class="smoothScroll" href="#interests" >Interests</a></li>
+            <li><a class="smoothScroll" href="#contact" >Contact</a></li>
+        </ul>
+    </div>
+ </header>
+
+<section class="home-here">
+    <div class="main-img">
+        <img class="hero-img" src="img/hero.png" alt="Illustration of Programmer">
+    </div>
+    <div class="container">
+        <h4 class="home-me">Hi there, <span class="wave">👋🏻</span> <br>I'm <span style="color: #157af6;">Aravind</span></h4>
+        <!-- Text Swap and TypeWriter Effect with Alternating Text-->
+        <p class="home-para">A <span id="spin"></span> Software Engineer</p>
+        <div class="button-group"> 
+            <a href="#contact" class="button button-accent smoothScroll">Contact</a>
+        </div>
+    </div>
+</section> 
+
+<a name = "skills"></a>
+<section class="home-skills">
+    <p class="skills-para">Skills</p>
+    <div class="card">
+        <div class="item">
+            <img class="icon-measure" viewBox= "0 0 120 100" src="img/python.svg" />
+            <div class="icon-name">Python</div>
+        </div>
+        <div class="item">
+            <img class="icon-measure" viewBox= "0 0 120 100" src="img/sql.svg" />
+            <div class="icon-name">SQL</div>
+        </div>
+        <div class="item">
+            <img class="icon-measure" viewBox= "0 0 120 100" src="img/html5.svg" />
+            <div class="icon-name">HTML5</div>
+        </div>
+        <div class="item">
+            <img class="icon-measure" viewBox= "0 0 120 100" src="img/css3.svg" />
+            <div class="icon-name">CSS3</div>
+        </div>
+        <div class="item">
+            <img class="icon-measure" viewBox= "0 0 120 100" src="img/javascript.svg" />
+            <div class="icon-name">JavaScript</div>
+        </div>
+        <div class="item">
+            <img class="icon-measure" viewBox= "0 0 120 100" src="img/git.svg" />
+            <div class="icon-name">Git</div>
+        </div>
+    </div>
+</section>
+
+<a name = "portfolio"></a>
+<section class="portfolio">
+    <p class="port-para">Experience</p>
+    <div class="ecard">
+        <p class="my-role">Software Engineer - Data </p>
+        <p class="company">SCI-BI Software Solutions Pvt. Ltd.</p>
+        <p class="employmenttime">Febrauary 2020 - Present</p>
+    </div>
+    <div class="ecard">
+        <p class="my-role">Software Engineer</p>
+        <p class="company">MadBee Mobility Solutions</p>
+        <p class="employmenttime">October 2019 - January 2020</p>
+        <div class="description">
+            <p>
+                Web Development : Developed a User-friendly E-commerce Website with enhanced Optimization.</br></br>
+                Data Analysis : Based on Client's requirements, Cleansed Data and Analysed Business Insights using Power BI and ChartIO.
+            </p>
+        </div>
+    </div>
+    <div class="ecard">
+        <p class="my-role">Big-Data Intern</p>
+        <p class="company">Spark-OT</p>
+        <p class="employmenttime">September 2018 - June 2019</p>
+        <div class="description">
+            <p>
+                I got Hands-On Training on Big-data Stack with AWS. Completed a Data Migration Project with AWS during that training.
+                Worked on Data Management Project from gathering Data, Preparation, Analysis , ETL and Visualization.
+            </p>
+        </div>
+    </div>
+    <div class="ecard">
+        <p class="my-role">SQL Developer</p>
+        <p class="company">Jai Vignesh Electronics</p>
+        <p class="employmenttime">April 2017 - September 2018</p>
+        <div class="description">
+            <p>
+                It is a Start-up Based Environment. My Role is to maintain Customers and Clients Database and handling data, Writing SQL scripts, Performing SCD's in SQL-Server. I also co-ordinated people to Sell and Service RO Water Purifiers and other Electronic Products.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="github-calendar">
+    <p style="font-weight: 500; color: #57595d; font-size: 20px;">GitHub Activity</p>
+    <p style="font-size:15px;margin: 1em 0;" >You can see my work on my <a style="color: #57595d; font-size: 15px; font-weight: 400;" href="https://github.com/aravind-alpha"> GitHub </a></p>
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"   
+    />
+
+    <div class="calendar">
+        Loading the data just for you.
+    </div>
+
+    <script>
+        GitHubCalendar(".calendar", "aravind-alpha");
+        GitHubCalendar(".calendar", "aravind-alpha", { responsive: true });
+    </script>
+</section>
+
+<a name="interests"></a>
+<section class="interests">
+    <p class="interest-para">Interests</p>
+    <div class="icard">
+        <div class="passion">
+            <img class="passion-icons" src="img/music.png">
+            <p class="picon-name">Listening Music</p>
+        </div>
+        <div class="passion">
+            <img class="passion-icons" src="img/coding.png">
+            <p class="picon-name">Coding Challenges</p>
+        </div>
+        <div class="passion">
+            <img class="passion-icons" src="img/gaming.png">
+            <p class="picon-name">Gaming</p>
+        </div>
+    </div>
+</section>
+
+<!-- <div class="daretodream">
+    <h1>Dare to dream</h1>
+</div> -->
+
+<a name = "contact"></a>
+<section class="contact">
+    <p class="contact-head">Contact</p>
+    <div>
+        <p class="contact-body">Have a Project to Discuss !! Let's Work together. <span style="color:#157af6; font-weight: 500;">Hit me Up.</span></br></br> You can find me here. </p>
+    </div>
+    <div class="social">
+        <a href="https://github.com/aravind-alpha" target="_blank"><i style="font-size:40px;color: #157af6;" class="fa">&#xf09b;</i></a>
+        <a href="https://www.linkedin.com/in/aravind-alpha/" target="_blank"><i style="font-size:40px;color: #157af6;" class="fa">&#xf08c;</i></a>
+        <a href="https://twitter.com/aravindviewz" target="_blank"><i style="font-size:40px;color: #157af6;" class="fa">&#xf081;</i></a>
+        <a href="https://www.instagram.com/aravind_viewz/" target="_blank"><i style="font-size:40px;color: #157af6;" class="fa">&#xf16d;</i></a>
+    </div>
+    
+</section>
+
+<footer class="footer">
+    <a href="#top" class="go-top smoothScroll">Top</a>
+    <p style="font-size: smaller; color:#157af6;">Made  with<i class="fa fa-heart" style="font-size:18px;color:red"></i>by  Aravind</p>
+    <p style="color: #157af6; font-size: smaller;">© 2020, Aravind</p>
+</footer>
+</body>
+</html>
