@@ -110,8 +110,14 @@ body {
   padding: 5px;
   margin: 3px;
   border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
 }
-/* For Portrait Tabs and bigger phones */
+.btn:hover {
+  background: rgba(68, 180, 255, 0.877);
+  color: #151515;
+}
+/* Macbooks, Portrait Tabs and bigger phones */
 @media only screen and (min-width: 600px) {
   .hero-description {
     margin: 15px;
@@ -163,8 +169,8 @@ body {
     border: 1px solid rgba(68, 180, 255, 0.877);
     color: rgba(68, 180, 255, 0.877);
     font-size: 16px;
-    padding: 5px;
-    margin: 3px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 5px;
   }
 }
