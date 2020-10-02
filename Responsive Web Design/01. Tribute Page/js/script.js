@@ -1,4 +1,4 @@
-// Light | Dark mode Saving in Local storage
+// Saving User's choice of Theme in Local storage
 
 var setTheme = localStorage.getItem("theme");
 
