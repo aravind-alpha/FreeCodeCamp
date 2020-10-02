@@ -18,19 +18,28 @@
     <meta name="url" property="og:url" content="content-url" />
     <meta name="author" content="Aravind.S" />
     <title>Steve Jobs Tribute Page - FCC</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="icon" href="https://aravind.netlify.com/favicon.ico" />
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link
+      id="mystylesheet"
+      rel="stylesheet"
+      type="text/css"
+      href="css/light.css"
+    />
     <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body class="main">
-    <button onclick="darkModeToggle()">Switch</button>
+    <div>
+      <button class="btn" onclick="swapStyle('css/light.css')">
+        Light Mode
+      </button>
+      <button class="btn" onclick="swapStyle('css/dark.css')">Dark Mode</button>
+    </div>
     <h1 class="hero-name" id="title">Steve Jobs</h1>
-    <h4 class="hero-description">A man who put dent in our universe</h4>
+    <h3 class="hero-description">A man who put dent in our universe</h3>
 
     <!-- === Hero Section === -->
     <section class="hero">
@@ -60,6 +69,7 @@
           <a
             href="https://en.wikipedia.org/wiki/Steve_Jobs"
             target="_blank"
+            rel="noreferrer"
             class="btn"
             id="tribute-link"
             >Wikipidea</a
@@ -67,6 +77,7 @@
           <a
             href="https://www.apple.com/stevejobs/"
             target="_blank"
+            rel="noreferrer"
             class="btn"
             id="tribute-link"
             >Remembering Steve</a
@@ -369,18 +380,23 @@
             </p>
           </div>
         </div>
-      <div class="container left">
-        <div class="content">
-          <h3 class="timeline-head">Aug 24th, 2011</h3>
-          <p>Apple announces that Jobs is resigning as CEO. Cook takes the CEO title, and Apple names Jobs chairman.</p>
+        <div class="container left">
+          <div class="content">
+            <h3 class="timeline-head">Aug 24th, 2011</h3>
+            <p>
+              Apple announces that Jobs is resigning as CEO. Cook takes the CEO
+              title, and Apple names Jobs chairman.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="container right">
-        <div class="content">
-          <h3 class="timeline-head">Oct 4th, 2011</h3>
-          <p>
-            Jobs dies at 56. Apple announces his death without giving a specific cause.
-          </p>
+        <div class="container right">
+          <div class="content">
+            <h3 class="timeline-head">Oct 4th, 2011</h3>
+            <p>
+              Jobs dies at 56. Apple announces his death without giving a
+              specific cause.
+            </p>
+          </div>
         </div>
       </div>
     </section>
