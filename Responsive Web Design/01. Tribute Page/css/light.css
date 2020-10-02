@@ -77,6 +77,7 @@ body {
 #img-caption {
   font-size: 15px;
   font-style: italic;
+  display: none;
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -261,6 +262,82 @@ body {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
+  }
+}
+
+/* === Single Quote section === */
+#single-quote {
+  margin: 50px;
+  text-align: center;
+  align-self: center;
+}
+#single-quote > .fa-quote-left {
+  float: left;
+  font-size: 3em;
+  color: #d2d2d2;
+}
+
+#single-quote > p {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-self: auto;
+  justify-content: space-around;
+  margin: 10px;
+  line-height: 2em;
+}
+
+@media (min-width: 768px) {
+  #single-quote {
+    margin: 50px;
+    text-align: center;
+    align-self: center;
+  }
+  #single-quote > .fa-quote-left {
+    float: left;
+    font-size: 2em;
+    color: #d2d2d2;
+  }
+
+  #single-quote > p {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    align-self: center;
+    justify-content: space-around;
+    margin: 6px;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #single-quote {
+    margin: 50px;
+    text-align: center;
+    align-self: center;
+  }
+  #single-quote > .fa-quote-left {
+    float: left;
+    font-size: 1em;
+    color: #d2d2d2;
+  }
+
+  #single-quote > p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    align-self: center;
+    justify-content: center;
+    margin: 3px;
+    line-height: 20px;
   }
 }
 
