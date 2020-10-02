@@ -3,7 +3,7 @@
 var setTheme = localStorage.getItem("theme");
 
 if (setTheme == null) {
-  swapStyle("light.css");
+  swapStyle("css/light.css");
 } else {
   swapStyle(setTheme);
 }
