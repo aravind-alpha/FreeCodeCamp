@@ -644,3 +644,16 @@ body {
     margin: 0 auto;
   }
 }
+
+/* === Footer === */
+#footer {
+  padding: 7px 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+#social {
+  padding: 7px 0;
+}
