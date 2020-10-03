@@ -1,14 +1,6 @@
-// Saving User's choice of Theme in Local storage
-
 var setTheme = localStorage.getItem("theme");
-
-if (setTheme == null) {
-  swapStyle("css/light.css");
-} else {
-  swapStyle(setTheme);
+function swapStyle(e) {
+  (document.getElementById("mystylesheet").href = e),
+    localStorage.setItem("theme", e);
 }
-
-function swapStyle(sheet) {
-  document.getElementById("mystylesheet").href = sheet;
-  localStorage.setItem("theme", sheet);
-}
+swapStyle(null == setTheme ? "css/light.css" : setTheme);
