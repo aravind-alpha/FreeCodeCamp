@@ -112,7 +112,7 @@ body {
 }
 .btn:hover {
   background: rgba(0, 105, 255, 1);
-  color: #151515;
+  color: #fff;
 }
 @media only screen and (min-width: 600px) {
   .hero-description {
