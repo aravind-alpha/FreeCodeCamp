@@ -73,7 +73,7 @@ body {
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid rgba(68, 180, 255, 0.877);
+  border: 1px solid rgba(71, 68, 255, 0.85);
   border-radius: 0.25rem;
 }
 .card-title {
@@ -85,7 +85,7 @@ body {
   font-weight: 600;
   margin: 3px 0;
   font-style: italic;
-  color: rgba(68, 180, 255, 0.877);
+  color: rgba(71, 68, 255, 0.85);
   font-size: 13px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -101,8 +101,8 @@ body {
 }
 .btn {
   background: 0 0;
-  border: 1px solid rgba(68, 180, 255, 0.877);
-  color: rgba(68, 180, 255, 0.877);
+  border: 1px solid rgba(71, 68, 255, 0.85);
+  color: rgba(71, 68, 255, 0.85);
   padding: 5px;
   margin: 3px;
   border-radius: 5px;
@@ -111,7 +111,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .btn:hover {
-  background: rgba(68, 180, 255, 0.877);
+  background: rgba(71, 68, 255, 0.85);
   color: #151515;
 }
 @media only screen and (min-width: 600px) {
@@ -148,7 +148,7 @@ body {
     font-weight: 500;
     margin: 3px 0;
     font-style: italic;
-    color: rgba(68, 180, 255, 0.877);
+    color: rgba(71, 68, 255, 0.85);
     font-size: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
@@ -165,8 +165,8 @@ body {
   }
   .btn {
     background: 0 0;
-    border: 1px solid rgba(68, 180, 255, 0.877);
-    color: rgba(68, 180, 255, 0.877);
+    border: 1px solid rgba(71, 68, 255, 0.85);
+    color: rgba(71, 68, 255, 0.85);
     font-size: 16px;
     padding: 10px;
     margin: 10px;
@@ -207,7 +207,7 @@ body {
     font-weight: 600;
     font-size: 20px;
     font-style: italic;
-    color: rgba(68, 180, 255, 0.877);
+    color: rgba(71, 68, 255, 0.85);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     margin: 3px 0;
@@ -246,7 +246,7 @@ body {
     font-weight: 600;
     font-size: 20px;
     font-style: italic;
-    color: rgba(68, 180, 255, 0.877);
+    color: rgba(71, 68, 255, 0.85);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     margin: 3px 0;
@@ -342,7 +342,7 @@ body {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: rgba(68, 180, 255, 0.877);
+  background-color: rgba(71, 68, 255, 0.85);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -360,8 +360,8 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #e0ffff;
-  border: 4px solid rgba(68, 180, 255, 0.877);
+  background-color: lightgray;
+  border: 4px solid rgba(71, 68, 255, 0.85);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -380,9 +380,9 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid rgba(68, 180, 255, 0.877);
+  border: medium solid rgba(71, 68, 255, 0.85);
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent rgba(68, 180, 255, 0.877);
+  border-color: transparent transparent transparent rgba(71, 68, 255, 0.85);
 }
 .right::before {
   content: " ";
@@ -392,27 +392,30 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid rgba(68, 180, 255, 0.877);
+  border: medium solid rgba(71, 68, 255, 0.85);
   border-width: 10px 10px 10px 0;
-  border-color: transparent rgba(68, 180, 255, 0.877) transparent transparent;
+  border-color: transparent rgba(71, 68, 255, 0.85) transparent transparent;
 }
 .right::after {
   left: -16px;
 }
 .content {
   padding: 20px 30px;
-  background-color: rgba(68, 180, 255, 0.877);
+  background-color: rgba(71, 68, 255, 0.85);
   position: relative;
   border-radius: 6px;
 }
 .content > h3 {
   font-size: 18px;
   font-weight: 700;
+  color: #fff;
   margin: 7px 0;
 }
 .content > p {
   font-style: italic;
   font-size: 18px;
+  color: #fff;
+  font-weight: 500;
   margin: 2px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -433,9 +436,9 @@ body {
   }
   .container::before {
     left: 60px;
-    border: medium solid rgba(68, 180, 255, 0.877);
+    border: medium solid rgba(71, 68, 255, 0.85);
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgba(68, 180, 255, 0.877) transparent transparent;
+    border-color: transparent rgba(71, 68, 255, 0.85) transparent transparent;
   }
   .left::after,
   .right::after {
@@ -463,7 +466,7 @@ body {
 }
 #slides {
   padding: 10px;
-  border: 3px solid rgba(68, 180, 255, 0.877);
+  border: 3px solid rgba(71, 68, 255, 0.85);
   position: relative;
   z-index: 1;
 }
@@ -548,7 +551,7 @@ body {
 #slide2:checked ~ #bullets label:nth-child(2),
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
-  background: rgba(68, 180, 255, 0.877);
+  background: rgba(71, 68, 255, 0.85);
 }
 #slide-content {
   margin: 50px;
@@ -618,4 +621,13 @@ body {
 }
 #social {
   padding: 7px 0;
+}
+#social {
+  padding: 7px 0;
+  color: rgba(71, 68, 255, 0.85);
+  font-size: 30px;
+  margin: 0 5px;
+}
+#quote {
+  color: rgba(71, 68, 255, 0.85);
 }
