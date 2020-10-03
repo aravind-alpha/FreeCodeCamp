@@ -1,29 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans");
-
+@import url(https://fonts.googleapis.com/css?family=Lato|Open+Sans);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 h2,
 h3,
 h4 {
   font-family: "Open Sans", sans-serif;
 }
-
 p {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
-
 body {
   justify-content: center;
   text-align: center;
   background-color: #151515;
   color: #d3cecc;
 }
-
-/* == Main container == */
 .main {
   padding-right: 10px;
   padding-left: 10px;
@@ -46,10 +40,6 @@ body {
     width: 1170px;
   }
 }
-
-/* ===  Hero-Section === */
-
-/* Mobile first */
 .hero {
   justify-content: center;
   align-items: center;
@@ -112,7 +102,7 @@ body {
   justify-content: space-evenly;
 }
 .btn {
-  background: none;
+  background: 0 0;
   border: 1px solid rgba(68, 180, 255, 0.877);
   color: rgba(68, 180, 255, 0.877);
   padding: 5px;
@@ -126,7 +116,6 @@ body {
   background: rgba(68, 180, 255, 0.877);
   color: #151515;
 }
-/* Macbooks, Portrait Tabs and bigger phones */
 @media only screen and (min-width: 600px) {
   .hero-description {
     margin: 15px;
@@ -155,7 +144,7 @@ body {
   .card-title {
     font-weight: 600;
     font-size: 30px;
-    margin: 30px 0px;
+    margin: 30px 0;
   }
   .card-subtitle {
     font-weight: 500;
@@ -177,7 +166,7 @@ body {
     justify-content: space-evenly;
   }
   .btn {
-    background: none;
+    background: 0 0;
     border: 1px solid rgba(68, 180, 255, 0.877);
     color: rgba(68, 180, 255, 0.877);
     font-size: 16px;
@@ -186,7 +175,6 @@ body {
     border-radius: 5px;
   }
 }
-/* Tablets */
 @media (min-width: 768px) {
   .hero-description {
     margin: 15px;
@@ -215,7 +203,7 @@ body {
   .card-title {
     font-weight: 600;
     font-size: 30px;
-    margin: 30px 0px;
+    margin: 30px 0;
   }
   .card-subtitle {
     font-weight: 600;
@@ -254,7 +242,7 @@ body {
   .card-title {
     font-weight: 600;
     font-size: 30px;
-    margin: 40px 0px 20px 0px;
+    margin: 40px 0 20px 0;
   }
   .card-subtitle {
     font-weight: 600;
@@ -275,8 +263,6 @@ body {
     justify-content: space-evenly;
   }
 }
-
-/* === Single Quote section === */
 #single-quote {
   margin: 50px;
   text-align: center;
@@ -287,7 +273,6 @@ body {
   font-size: 3em;
   color: #d2d2d2;
 }
-
 #single-quote > p {
   font-weight: 500;
   font-size: 24px;
@@ -299,7 +284,6 @@ body {
   margin: 10px;
   line-height: 2em;
 }
-
 @media (min-width: 768px) {
   #single-quote {
     margin: 50px;
@@ -311,7 +295,6 @@ body {
     font-size: 2em;
     color: #d2d2d2;
   }
-
   #single-quote > p {
     font-weight: 500;
     font-size: 23px;
@@ -325,7 +308,6 @@ body {
     line-height: 1.5em;
   }
 }
-
 @media screen and (max-width: 600px) {
   #single-quote {
     margin: 50px;
@@ -337,7 +319,6 @@ body {
     font-size: 1em;
     color: #d2d2d2;
   }
-
   #single-quote > p {
     font-weight: 500;
     font-size: 14px;
@@ -351,8 +332,6 @@ body {
     line-height: 20px;
   }
 }
-
-/* === Timeline Section === */
 .timeline-section {
   margin: 30px 0;
 }
@@ -361,7 +340,6 @@ body {
   max-width: 1200px;
   margin: 20px auto;
 }
-
 .timeline::after {
   content: "";
   position: absolute;
@@ -372,35 +350,30 @@ body {
   left: 50%;
   margin-left: -3px;
 }
-
 .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
-
 .container::after {
   content: "";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: lightcyan;
+  background-color: #e0ffff;
   border: 4px solid rgba(68, 180, 255, 0.877);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
-
 .left {
   left: 0;
 }
-
 .right {
   left: 50%;
 }
-
 .left::before {
   content: " ";
   height: 0;
@@ -413,7 +386,6 @@ body {
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent rgba(68, 180, 255, 0.877);
 }
-
 .right::before {
   content: " ";
   height: 0;
@@ -426,11 +398,9 @@ body {
   border-width: 10px 10px 10px 0;
   border-color: transparent rgba(68, 180, 255, 0.877) transparent transparent;
 }
-
 .right::after {
   left: -16px;
 }
-
 .content {
   padding: 20px 30px;
   background-color: rgba(68, 180, 255, 0.877);
@@ -450,45 +420,36 @@ body {
   color: #151515 !important;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 @media screen and (max-width: 600px) {
   .timeline::after {
     left: 31px;
   }
-
   .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-
   .content > h3 {
     font-size: 16px;
   }
-
   .content > p {
     font-size: 14px;
     color: #151515 !important;
   }
-
   .container::before {
     left: 60px;
     border: medium solid rgba(68, 180, 255, 0.877);
     border-width: 10px 10px 10px 0;
     border-color: transparent rgba(68, 180, 255, 0.877) transparent transparent;
   }
-
   .left::after,
   .right::after {
     left: 15px;
   }
-
   .right {
-    left: 0%;
+    left: 0;
   }
 }
-
-/* === Quotes Slider === */
 .fav-quotes {
   margin: 12vh 0;
 }
@@ -528,7 +489,7 @@ body {
   margin-left: -300%;
 }
 #slides .inner {
-  transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: margin-left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
   width: 400%;
   line-height: 0;
   height: 300px;
@@ -594,7 +555,6 @@ body {
 #slide4:checked ~ #bullets label:nth-child(4) {
   background: rgba(68, 180, 255, 0.877);
 }
-
 #slide-content {
   margin: 50px;
   text-align: center;
@@ -604,7 +564,6 @@ body {
   float: left;
   font-size: 3em;
 }
-
 #slide-content > p {
   font-weight: 500;
   font-size: 19px;
@@ -616,7 +575,6 @@ body {
   margin: 10px;
   line-height: 1.6em;
 }
-
 @media screen and (max-width: 600px) {
   #slide-content {
     margin: 0;
@@ -627,7 +585,6 @@ body {
     float: left;
     font-size: 1em;
   }
-
   #slide-content > p {
     font-weight: 400;
     font-size: 13px;
@@ -641,15 +598,14 @@ body {
     line-height: 1em;
   }
 }
-
 @media screen and (max-width: 900px) {
   #slide1:checked ~ #controls label:nth-child(2),
-  #slide2:checked ~ #controls label:nth-child(3),
-  #slide3:checked ~ #controls label:nth-child(4),
-  #slide4:checked ~ #controls label:nth-child(1),
   #slide1:checked ~ #controls label:nth-last-child(2),
+  #slide2:checked ~ #controls label:nth-child(3),
   #slide2:checked ~ #controls label:nth-last-child(3),
+  #slide3:checked ~ #controls label:nth-child(4),
   #slide3:checked ~ #controls label:nth-last-child(4),
+  #slide4:checked ~ #controls label:nth-child(1),
   #slide4:checked ~ #controls label:nth-last-child(1) {
     margin: 0;
   }
@@ -658,8 +614,6 @@ body {
     margin: 0 auto;
   }
 }
-
-/* === Footer === */
 #footer {
   padding: 7px 0;
   width: 100%;
@@ -667,7 +621,6 @@ body {
   justify-content: center;
   position: absolute;
 }
-
 #social {
   padding: 7px 0;
 }
