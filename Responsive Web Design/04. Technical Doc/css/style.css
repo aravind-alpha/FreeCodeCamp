@@ -141,3 +141,31 @@ code {
     border-radius: 5px;
   }
 }
+.footer {
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  padding-top: 10px;
+}
+#Footer {
+  padding: 0 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#social {
+  padding: 1px 4px;
+  color: #d2377f;
+  font-size: 1.3em;
+  margin: 0 5px;
+  justify-content: center;
+  align-items: center;
+}
+#quote {
+  color: #d2377f;
+}
